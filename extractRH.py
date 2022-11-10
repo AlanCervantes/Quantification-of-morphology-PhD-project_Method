@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 
+## extract contours of individual 'hooked' hairs from segmented images ##
+
 import cv2
 import numpy as np
 import os
