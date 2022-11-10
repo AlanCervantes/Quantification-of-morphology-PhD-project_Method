@@ -1,5 +1,5 @@
 
-### analyze the length of the 'hooked' hairs in their response to nutrient stress across treatment #####
+### Analyze the length of the 'hooked' hairs in early development according to age and root growth #####
 
 #Import all libraries
 import pandas as pd
