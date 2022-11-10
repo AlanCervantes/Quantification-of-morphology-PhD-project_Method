@@ -1,5 +1,5 @@
 
-### new analyisis of length by Peter - 2022 #####
+### analyze the length of the 'hooked' hairs in their response to nutrient stress across treatment #####
 
 #Import all libraries
 import pandas as pd
@@ -12,10 +12,10 @@ from scipy.stats import ttest_ind
 import numpy as np
 import seaborn as sb
 
-path1=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/Data_cellshapeC_length.csv"
-path2=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/Data_cellshapePS_length.csv"
-path3=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/Data_cellshapeNS_length.csv"
-path4=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/Data_Compile_Length_final_2.xlsx"
+path1=r"Data_cellshapeC_length.csv"
+path2=r"Data_cellshapePS_length.csv"
+path3=r"Data_cellshapeNS_length.csv"
+path4=r"Data_Compile_Length_final_2.xlsx"
 
 
 
