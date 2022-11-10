@@ -1,5 +1,5 @@
 
-### Analyze the length of the 'hooked' hairs in early development according to age and root growth #####
+### Analyze the length of the 'hooked' hairs in early development according to age and root growth across treatment #####
 
 #Import all libraries
 import pandas as pd
