@@ -1,3 +1,5 @@
+## Quantify the degree of 'hooking' in a trichome ##
+
 ## Import libraries ##
 import cv2
 from cv2 import line
