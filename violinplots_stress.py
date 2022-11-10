@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-xl = pd.ExcelFile(r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/Data_Compile_AP_final_1.xlsx")
+xl = pd.ExcelFile(r"Data_Compile_AP_final_1.xlsx")
 df = xl.parse('Nstress_violinplot')
 
 
