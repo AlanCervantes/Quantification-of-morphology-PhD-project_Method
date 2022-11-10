@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Analyze the area and perimeter of the 'hooked' hairs in early development according to age and root growth #
+# Analyze the area and perimeter of the 'hooked' hairs in early development according to age and root growth across treatment #
 
 
 ## import libraries ##
