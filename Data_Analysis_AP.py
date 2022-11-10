@@ -17,10 +17,10 @@ import numpy as np
 
 # All functions here ####
 
-path1=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/DataCellShapeC_pipeline.csv"
-path2=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/DataCellShapeNS_pipeline.csv"
-path3=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/DataCellShapePS_pipeline.csv"
-path4=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/Data_Compile_AP_final_1.xlsx"
+path1=r"DataCellShapeC_pipeline.csv"
+path2=r"DataCellShapeNS_pipeline.csv"
+path3=r"DataCellShapePS_pipeline.csv"
+path4=r"Data_Compile_AP_final_1.xlsx"
 
 
 def Data_Analysis(path1, path2, path3):
