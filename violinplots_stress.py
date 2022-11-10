@@ -1,3 +1,6 @@
+
+## Analyze the area, perimeter, length and shape of the 'hooked' hairs in early development according to age and root growth for each treatment ##
+
 #libraries
 import pandas as pd
 import seaborn as sns
