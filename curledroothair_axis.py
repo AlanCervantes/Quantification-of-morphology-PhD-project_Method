@@ -1,3 +1,5 @@
+## Quantify the degree of hooking in a curled root hair ##
+
 #Import libraries##
 import cv2
 import numpy as np
