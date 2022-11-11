@@ -17,10 +17,10 @@ import numpy as np
 
 # All functions here ####
 
-path1=r"DataCellShapeC_pipeline.csv"
-path2=r"DataCellShapeNS_pipeline.csv"
-path3=r"DataCellShapePS_pipeline.csv"
-path4=r"Data_Compile_AP_final_1.xlsx"
+path1=r"Data_Files_Morphology/DataCellShapeC_pipeline.csv"
+path2=r"Data_Files_Morphology/DataCellShapeNS_pipeline.csv"
+path3=r"Data_Files_Morphology/DataCellShapePS_pipeline.csv"
+path4=r"Data_Files_Morphology/Data_Compile_AP_final_1.xlsx"
 
 
 def Data_Analysis(path1, path2, path3):
