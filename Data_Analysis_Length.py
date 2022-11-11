@@ -12,10 +12,10 @@ from scipy.stats import ttest_ind
 import numpy as np
 import seaborn as sb
 
-path1=r"Data_cellshapeC_length.csv"
-path2=r"Data_cellshapePS_length.csv"
-path3=r"Data_cellshapeNS_length.csv"
-path4=r"Data_Compile_Length_final_2.xlsx"
+path1=r"Data_Files_Morphology/Data_cellshapeC_length.csv"
+path2=r"Data_Files_Morphology/Data_cellshapePS_length.csv"
+path3=r"Data_Files_Morphology/Data_cellshapeNS_length.csv"
+path4=r"Data_Files_Morphology/Data_Compile_Length_final.xlsx"
 
 
 
