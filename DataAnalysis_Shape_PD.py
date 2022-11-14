@@ -12,10 +12,10 @@ from scipy.stats import ttest_ind
 import numpy as np
 import seaborn as sb
 
-path1=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/Procrustes_outlier/Procrustes_outlier_redo/Data_cellshape_Control.csv"
-path2=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/Procrustes_outlier/Procrustes_outlier_redo/Data_cellshape_PStress.csv"
-path3=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/Procrustes_outlier/Procrustes_outlier_redo/Data_cellshape_NStress.csv"
-path4=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/Procrustes_outlier/Procrustes_outlier_redo/Data_Compile_shape_outlier.xlsx"
+path1=r"Data_Files_Morphology/Data_cellshape_Control.csv"
+path2=r"Data_Files_Morphology/Data_cellshape_PStress.csv"
+path3=r"Data_Files_Morphology/Data_cellshape_NStress.csv"
+path4=r"Data_Files_Morphology/Data_Compile_shape_outlier.xlsx"
 
 # #create an empty df
 dfc=pd.DataFrame()
@@ -286,7 +286,7 @@ Excelwriter.save()
 
 #make box_plot for area##
 
-xl = pd.ExcelFile(r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/Procrustes_outlier/Procrustes_outlier_redo/Data_Compile_shape_outlier.xlsx")
+xl = pd.ExcelFile(path4)
 
 df = xl.parse('Cumulative')
 Col=list(df.columns)
