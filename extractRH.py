@@ -70,17 +70,6 @@ def ExtractRH(path1,path2):
                     p = mask[x,y]
                     if p == 255:
                         l=l+1
-
-            # outfile = '%d.png'%d
-            # d=d+1
-
-            # os.chdir(path2)
-
-            # filename=os.path.splitext(filename)[0]
-            # cv2.imwrite(filename+outfile, mask)
-            # print(filename+outfile)
-
-            # os.chdir(path1)
         
             if l>0:
 
@@ -119,8 +108,8 @@ path2=sys.argv[2]
 
 ExtractRH(path1,path2)
 
-#path1= (r"/Users/ankita/Desktop/DataAnalysis/RGB/Control_trial")
-#path2= (r"/Users/ankita/Desktop/DataAnalysis/RGB/Control_extracted_trial")
+#path1 to folder with segmented microscopic images of our dataset or the pre-processed raw data
+#path2 to folder with the extracted contours of individual 'hooked' hair cells
 
 
 
