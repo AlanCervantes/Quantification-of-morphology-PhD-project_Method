@@ -1,3 +1,6 @@
+
+### Modification in the original ICP script to save the data, model & superimposed co-ordinates as well as the rotation & translation matrix ###
+
 __version__ = '2.1.1'
 __author__  = "Avinash Kak (kak@purdue.edu)"
 __date__    = '2017-November-25'
