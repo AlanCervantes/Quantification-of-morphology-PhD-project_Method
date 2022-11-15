@@ -4,6 +4,8 @@ Created on Tue Dec 14 16:24:06 2021
 
 @author: ar54482
 """
+### This script was used for ICP implementation and calculation of procrustes distance to quantify the shape of 'hooked' hairs ###
+
 import json
 import os
 import ICP
