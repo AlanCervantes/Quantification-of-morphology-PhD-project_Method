@@ -5,6 +5,8 @@ Created on Wed Jul  6 15:22:08 2022
 @author: ar54482
 """
 
+### This script was used to combine all *csv files into the final output csv file for procrustes distance ###
+
 import os
 import glob
 import pandas as pd
