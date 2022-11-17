@@ -9,9 +9,9 @@ import numpy as np
 
 # All functions here ####
 
-path1=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/DataCellShapeC_pipeline.csv"
-path2=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/DataCellShapeNS_pipeline.csv"
-path3=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/DataCellShapePS_pipeline.csv"
+path1=r"Data_Files_Morphology/DataCellShapeC_pipeline.csv"
+path2=r"Data_Files_Morphology/DataCellShapeNS_pipeline.csv"
+path3=r"Data_Files_Morphology/Peter_Reanalysis/DataCellShapePS_pipeline.csv"
 
 
 
