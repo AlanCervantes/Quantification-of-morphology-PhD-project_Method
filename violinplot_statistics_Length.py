@@ -3,9 +3,9 @@ import pandas as pd
 from scipy import stats
 
 
-path1=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/Data_Files_Morphology/Data_cellshapeC_length.csv"
-path2=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/Data_Files_Morphology/Data_cellshapePS_length.csv"
-path3=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/Data_Files_Morphology/Data_cellshapeNS_length.csv"
+path1=r"Data_Files_Morphology/Data_cellshapeC_length.csv"
+path2=r"Data_Files_Morphology/Data_cellshapePS_length.csv"
+path3=r"Data_Files_Morphology/Data_cellshapeNS_length.csv"
 
 
 def Data_Analysis(path1,path2,path3):
