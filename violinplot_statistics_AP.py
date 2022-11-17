@@ -1,5 +1,5 @@
 
-## Code to calculate the mean, variance, skewness and kurtosis of data for each day and growth category ##
+## Code to calculate the mean, variance, skewness and kurtosis of data for area and perimeter for each day and growth category ##
 
 ## import libraries ##
 from decimal import Clamped
