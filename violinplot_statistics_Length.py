@@ -1,3 +1,5 @@
+## Code to calculate the mean, variance, skewness and kurtosis of data for length for each day and growth category ##
+
 #Import all libraries
 import pandas as pd
 from scipy import stats
