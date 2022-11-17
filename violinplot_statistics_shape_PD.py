@@ -5,10 +5,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from scipy import stats
 
-path1=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/Procrustes_outlier/Procrustes_outlier_redo/Data_cellshape_Control.csv"
-path2=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/Procrustes_outlier/Procrustes_outlier_redo/Data_cellshape_PStress.csv"
-path3=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/Procrustes_outlier/Procrustes_outlier_redo/Data_cellshape_NStress.csv"
-path4=r"/Users/ankita/Desktop/DataAnalysis/RGB/Procrustes/Re-analysis/Peter_Reanalysis/Procrustes_outlier/Procrustes_outlier_redo/Data_Compile_shape_outlier.xlsx"
+path1=r"Data_Files_Morphology/Data_cellshape_Control.csv"
+path2=r"Data_Files_Morphology/Data_cellshape_PStress.csv"
+path3=r"Data_Files_Morphology/Data_cellshape_NStress.csv"
 
 # #create an empty df
 dfc=pd.DataFrame()
