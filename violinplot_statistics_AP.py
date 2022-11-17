@@ -2,7 +2,6 @@
 ## Code to calculate the mean, variance, skewness and kurtosis of data for area and perimeter for each day and growth category ##
 
 ## import libraries ##
-from decimal import Clamped
 import pandas as pd
 from scipy import stats
 import numpy as np
