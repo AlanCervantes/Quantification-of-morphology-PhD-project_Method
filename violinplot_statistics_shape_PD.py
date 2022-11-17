@@ -1,4 +1,4 @@
- 
+ ## Code to calculate the mean, variance, skewness and kurtosis of data for shape for each day and growth category ##
  
  #Import all libraries
 import pandas as pd
