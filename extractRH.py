@@ -117,8 +117,8 @@ path2=sys.argv[2]
 
 ExtractRH(path1,path2)
 
-#path1= (r"/Users/ankita/Desktop/DataAnalysis/RGB/Control_trial")
-#path2= (r"/Users/ankita/Desktop/DataAnalysis/RGB/Control_extracted_trial")
+#path1 to the location of the input folder#
+#path2 to the location of the output folder#
 
 
 
