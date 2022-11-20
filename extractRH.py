@@ -1,5 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+## This script was used to extract individual hooked hair contours from the segmented images ##
+
 
 
 import cv2
