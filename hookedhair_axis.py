@@ -1,3 +1,6 @@
+# This script was used to quantify the degree of hooking in a 'hooked' hair #
+
+
 #Import libraries##
 import cv2
 from matplotlib.font_manager import findSystemFonts
