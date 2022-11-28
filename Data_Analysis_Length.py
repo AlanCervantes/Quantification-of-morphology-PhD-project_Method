@@ -349,12 +349,12 @@ for x in Nl:
 
 
 ## 2 sample T-test ##
-PC=ttest_ind(a=np.array(Ps),b=np.array(Con),equal_var=True)
+PC=ttest_ind(a=np.array(Ps),b=np.array(Con),equal_var=False)
 print(PC)
 
-NC=ttest_ind(a=np.array(Ns),b=np.array(Con),equal_var=True)
+NC=ttest_ind(a=np.array(Ns),b=np.array(Con),equal_var=False)
 print(NC)
 
-NP=ttest_ind(a=np.array(Ns),b=np.array(Ps),equal_var=True)
+NP=ttest_ind(a=np.array(Ns),b=np.array(Ps),equal_var=Fasle)
 print(NP)
 ## 2 sample T-test ##
