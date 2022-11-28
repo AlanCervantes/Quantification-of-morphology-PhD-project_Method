@@ -338,12 +338,12 @@ for x in Nl:
 # # # #plt.hist(D, normed=False, alpha=0.5,bins=15,color='green',cumulative=False)
 # # #print(p)
 
-PC=ttest_ind(a=np.array(Ps),b=np.array(Con),equal_var=True)
+PC=ttest_ind(a=np.array(Ps),b=np.array(Con),equal_var=False)
 print(PC)
 
-NC=ttest_ind(a=np.array(Ns),b=np.array(Con),equal_var=True)
+NC=ttest_ind(a=np.array(Ns),b=np.array(Con),equal_var=False)
 print(NC)
 
-NP=ttest_ind(a=np.array(Ns),b=np.array(Ps),equal_var=True)
+NP=ttest_ind(a=np.array(Ns),b=np.array(Ps),equal_var=False)
 print(NP)
 
