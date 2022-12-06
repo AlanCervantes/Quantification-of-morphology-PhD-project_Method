@@ -11,7 +11,7 @@ import numpy as np
 
 path1=r"Data_Files_Morphology/DataCellShapeC_pipeline.csv"
 path2=r"Data_Files_Morphology/DataCellShapeNS_pipeline.csv"
-path3=r"Data_Files_Morphology/Peter_Reanalysis/DataCellShapePS_pipeline.csv"
+path3=r"Data_Files_Morphology/DataCellShapePS_pipeline.csv"
 
 
 
