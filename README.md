@@ -33,7 +33,7 @@ Code for the quantification of geometry (area & perimeter) and shape (procrustes
 
 7. To analyze how the area & perimeter of'hooked hairs' change with age and growth of the plant in early development run `python3 violinplot_statistics_AP.py Data_Files_Morphology/DataCellShapeC_pipeline.csv Data_Files_Morphology/DataCellShapeNS_pipeline.csv Data_Files_Morphology/DataCellShapePS_pipeline.csv`
 
-8. To analyze how the length of'hooked hairs' changes with age and growth of the plant in early development run `python3 violinplot_statistics_Length.py Data_Analysis_Length.py Data_Files_Morphology/Data_cellshapeC_length.csv Data_Files_Morphology/Data_cellshapePS_length.csv Data_Files_Morphology/Data_cellshapeNS_length.csv`
+8. To analyze how the length of'hooked hairs' changes with age and growth of the plant in early development run `python3 violinplot_statistics_Length.py  Data_Files_Morphology/Data_cellshapeC_length.csv Data_Files_Morphology/Data_cellshapePS_length.csv Data_Files_Morphology/Data_cellshapeNS_length.csv`
 
 9. To analyze how the shape of'hooked hairs' changes with age and growth of the plant in early development run `python3 violinplot_statistics_shape_PD.py Data_Files_Morphology/Data_cellshape_Control.csv Data_Files_Morphology/Data_cellshape_PStress.csv Data_Files_Morphology/Data_cellshape_NStress.csv`
 
