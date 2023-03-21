@@ -24,5 +24,6 @@ Code for the quantification of geometry (area & perimeter) and shape (procrustes
 
 ### Analysis
 4. To analyze how the area and perimeter changes under stress for each day (3,4,5) and growth category (low,mid,hogh) run `python3 Data_Analysis_AP.py Data_Files_Morphology/DataCellShapeC_pipeline.csv Data_Files_Morphology/DataCellShapePS_pipeline.csv Data_Files_Morphology/DataCellShapeNS_pipeline.csv` **'python3 Data_Analysis_AP.py input-path' the input path is the output path from step 2**
-5. To analyze how the area and perimeter changes under stress for each day (3,4,5) and growth category (low,mid,hogh) run `python3 Data_Analysis_AP.py Data_Files_Morphology/DataCellShapeC_pipeline.csv Data_Files_Morphology/DataCellShapePS_pipeline.csv Data_Files_Morphology/DataCellShapeNS_pipeline.csv`
+
+5. To analyze how the area and perimeter changes under stress for each day (3,4,5) and growth category (low,mid,hogh) run `python3 Data_Analysis_AP.py Data_Files_Morphology/Datacellshape_Length.csv Data_Files_Morphology/DataCellShapePS_pipeline.csv Data_Files_Morphology/DataCellShapeNS_pipeline.csv`
 
