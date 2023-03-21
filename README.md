@@ -18,6 +18,6 @@ Code for the quantification of geometry (area & perimeter) and shape (procrustes
 1. To generate individual hooked hair run `python3 extractRH.py DataAnalysis/RGB/Control_trial DataAnalysis/RGB` **python3 extractRH.py input-path output-path Directory folders are local, input the data directory on the system**
  - **DataAnalysis/RGB/Control_trial**  is the input path with segmented microscopic images of hooked hairs
  - **DataAnalysis/RGB/Control_trial**  is the outout path where extracted individual hooked hairs are saved
-2. To calculate area and perimeter of extracted hooked hair run `python3 Perimeter+CS.py DataAnalysis/RGB DataAnalysis/`, **python3 Perimeter+CS.py input-path output-path DataAnalysis/RGB should be the output directory from step 1**
-3. To analyze how the area and perimeter change with age and growth of the plant run `python3 Data_Analysis_AP.py DataAnalysis/` **python3 Data_Analysis_AP.py input-path the input path is the output path from step 2**
+2. To calculate area and perimeter of extracted hooked hair run `python3 Perimeter+CS.py DataAnalysis/RGB DataAnalysis/`, **'python3 Perimeter+CS.py input-path output-path' DataAnalysis/RGB should be the output directory from step 1**
+3. To analyze how the area and perimeter change with age and growth of the plant run `python3 Data_Analysis_AP.py DataAnalysis/` **'python3 Data_Analysis_AP.py input-path' the input path is the output path from step 2**
 
