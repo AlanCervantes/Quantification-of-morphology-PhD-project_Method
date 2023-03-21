@@ -23,15 +23,15 @@ Code for the quantification of geometry (area & perimeter) and shape (procrustes
 2. To calculate area and perimeter of extracted hooked hair run `python3 Perimeter+CS.py DataAnalysis/RGB DataAnalysis/`, **'python3 Perimeter+CS.py input-path output-path' DataAnalysis/RGB should be the output directory from step 1**
 
 ### Analysis
-4. To analyze how the area and perimeter changes under stress for each day (3,4,5) and growth category (low,mid,hogh) run `python3 Data_Analysis_AP.py Data_Files_Morphology/DataCellShapeC_pipeline.csv Data_Files_Morphology/DataCellShapeNS_pipeline.csv Data_Files_Morphology/DataCellShapePS_pipeline.csv output-path` 
+4. To analyze how the area and perimeter of 'hooked' hairs changes under stress for each day (3,4,5) and growth category (low,mid,high) run `python3 Data_Analysis_AP.py Data_Files_Morphology/DataCellShapeC_pipeline.csv Data_Files_Morphology/DataCellShapeNS_pipeline.csv Data_Files_Morphology/DataCellShapePS_pipeline.csv output-path` 
 
-5. To analyze how length changes under stress for each day (3,4,5) and growth category (low,mid,high) run `python3 Data_Analysis_Length.py Data_Files_Morphology/Data_cellshapeC_length.csv Data_Files_Morphology/Data_cellshapePS_length.csv Data_Files_Morphology/Data_cellshapeNS_length.csv output-path`
+5. To analyze how length of 'hooked' hairs changes under stress for each day (3,4,5) and growth category (low,mid,high) run `python3 Data_Analysis_Length.py Data_Files_Morphology/Data_cellshapeC_length.csv Data_Files_Morphology/Data_cellshapePS_length.csv Data_Files_Morphology/Data_cellshapeNS_length.csv output-path`
 
-6. To analyze how shape changes under stress for each day (3,4,5) and growth category (low,mid,high)run `python3 Data_Analysis_Shape_PD.py Data_Files_Morphology/Data_cellshape_Control.csv Data_Files_Morphology/Data_cellshape_PStress.csv Data_Files_Morphology/Data_cellshape_NStress.csv output-path`
+6. To analyze how shape of 'hooked' hairs changes under stress for each day (3,4,5) and growth category (low,mid,high)run `python3 Data_Analysis_Shape_PD.py Data_Files_Morphology/Data_cellshape_Control.csv Data_Files_Morphology/Data_cellshape_PStress.csv Data_Files_Morphology/Data_cellshape_NStress.csv output-path`
 
 **'python3 Data_Analysis_AP.py/Data_Analysis_Shape_PD.py input-path1 input-path2 input-path3 output-path' input paths 1,2 & 3 are the output paths from step 3 & step 4 respectively for the 3 treatment conditions (Control(C), P-stress(PS) & N-stress(NS)) specific to our experiment output-path is the location to store the output csv file**
 
-7. 
+7. To analyze how the area & perimeter of 'hooked hairs' changes with age and growth of the plant in early development run 
 
 `
 
