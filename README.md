@@ -39,5 +39,7 @@ Code for the quantification of geometry (area & perimeter) and shape (procrustes
 
 **'python3 Data_Analysis_AP.py/Data_Analysis_Shape_PD.py input-path1 input-path2 input-path3' input path 1,2 & 3 are the same input files used in step 4,5 & 6 respectively.**
 
-`
+### HookingAxisHistogram 
+1. To plot the histogram representing the degree of hooking in a curled root hair image run `python3 
+
 
