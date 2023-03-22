@@ -22,6 +22,8 @@ Code for the quantification of geometry (area & perimeter) and shape (procrustes
 ### Quantification
 2. To calculate area and perimeter of extracted hooked hair run `python3 Perimeter+CS.py DataAnalysis/RGB DataAnalysis/`, **'python3 Perimeter+CS.py input-path output-path' DataAnalysis/RGB should be the output directory from step 1**
 
+3.
+
 ### Analysis
 4. To analyze how the area and perimeter of 'hooked' hairs changes under stress for each day (3,4,5) and growth category (low,mid,high) run `python3 Data_Analysis_AP.py Data_Files_Morphology/DataCellShapeC_pipeline.csv Data_Files_Morphology/DataCellShapeNS_pipeline.csv Data_Files_Morphology/DataCellShapePS_pipeline.csv output-path` 
 
